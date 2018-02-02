@@ -1,0 +1,22 @@
+uuid: c818a103-c37b-4b9b-9f77-a93b3fc1cb74
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rennie_neato
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: rennie_neato_local_tasks
+theme: rennie_neato
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

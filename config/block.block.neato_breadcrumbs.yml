@@ -1,0 +1,22 @@
+uuid: a72a4f1e-d4fd-4ba6-a053-ba07093d64c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - neato
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: neato_breadcrumbs
+theme: neato
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

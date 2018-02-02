@@ -1,0 +1,22 @@
+uuid: 3433e763-a4f1-4b83-8b77-6d06d68d37de
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - rennie_neato
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: rennie_neato_search
+theme: rennie_neato
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

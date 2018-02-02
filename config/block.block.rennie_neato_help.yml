@@ -1,0 +1,22 @@
+uuid: a0c179bb-39c4-4306-8f82-0c1f95a4456d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - rennie_neato
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: rennie_neato_help
+theme: rennie_neato
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
