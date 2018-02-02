@@ -1,0 +1,22 @@
+uuid: 42e8b3af-3eb7-44e6-a54b-5a4d3d50cc5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rennie_neato
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: rennie_neato_breadcrumbs
+theme: rennie_neato
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

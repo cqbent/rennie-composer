@@ -1,0 +1,22 @@
+uuid: c23c43f0-def0-4d87-917f-127abadbb6e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rennie_neato
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: rennie_neato_content
+theme: rennie_neato
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
